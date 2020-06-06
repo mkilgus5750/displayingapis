@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero API</title>
+    <style>
+        h1 {
+            color: darkblue;
+        }
+        li {
+            color: purple;
+        }
+    </style>
+</head>
+    
+<body>
+    <ul>
+    <h1>Aliases for {{name}}</h1>
+    {% for alias in aliases %}
+    <li>{{ alias }}</li> 
+    {% endfor %}
+</ul>
+</body>
+</html>
+
